@@ -7,7 +7,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Home hahahahaha</title>
+<title>Home haha</title>
 </head>
 <body>
 
