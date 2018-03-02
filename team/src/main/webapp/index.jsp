@@ -68,7 +68,7 @@
                <li><a href="index-1.html">開啟緣分</a></li>
                <li><a href="index-2.html">揪一下</a></li>
                <li><a href="index-3.html">塗鴉牆</a></li>
-               <li><a href="index-4.html">會員中心</a></li>
+               <li><a href="index-4.html">會員登入</a></li>
              </ul>
             </nav>        
             <div class="clear"></div>
@@ -176,39 +176,39 @@
         <div class="grid_4"><a href="images/big2.jpg" class="gall_item"><img src="images/page1_img5.jpg" alt=""></a><a href="#" class="link1">+</a><div class="clear"></div></div>
         <div class="grid_4"><a href="images/big3.jpg" class="gall_item"><img src="images/page1_img6.jpg" alt=""></a><a href="#" class="link1">+</a><div class="clear"></div></div>
       </div>
-      <div class="grid_4">
-        <h2>Testimonials</h2>
-        <blockquote class="bq1">
-          <img src="images/page1_img7.jpg" alt="" class="img_inner fleft noresize">
-          <div class="extra_wrapper">
-            <div class="bq_title color1">Mark Wood</div>
-            Sivamus at magna non nuncer tristique rhoncus. Aliquame nibh ante, egestas id dictumertolom  commodo. Praesent faucib mal.
-            <a href="#"><span class="fa fa-chevron-right"></span>more testimonials</a>
-          </div>
-        </blockquote>
-      </div>
-      <div class="grid_4">
-        <h2>What’s new</h2>
-        <div class="block2">
-          <time datetime="2014-01-01">11<br>June</time>
-          <div class="extra_wrapper">
-            <div class="text1"><a href="#">Vivamus at magna non nunc </a></div>Rehoncus. Aliquam nibh antegestas id dictum a, commodo. Praesenterto faucibus malesuada faucibus
-          </div>
-        </div>
-        <div class="block2">
-          <time datetime="2014-01-01">15<br>APR</time>
-          <div class="extra_wrapper">
-            <div class="text1"><a href="#">Tivamus at magna non nunc </a></div>Rehoncus. Aliquam nibh antegestas id dictum a, commodo. Praesenterto faucibus malesuada faucibu
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <h2>Opening Hours</h2>
-        <ul class="shed">
-          <li><span>Breakfast:</span> 8AM - 11AM</li>
-          <li><span>Grill Menu:</span> 12AM - 12PM</li>
-          <li><span>Live Musiс:</span> 8AM - 11AM</li>
-        </ul>
+<!--       <div class="grid_4"> -->
+<!--         <h2>Testimonials</h2> -->
+<!--         <blockquote class="bq1"> -->
+<!--           <img src="images/page1_img7.jpg" alt="" class="img_inner fleft noresize"> -->
+<!--           <div class="extra_wrapper"> -->
+<!--             <div class="bq_title color1">Mark Wood</div> -->
+<!--             Sivamus at magna non nuncer tristique rhoncus. Aliquame nibh ante, egestas id dictumertolom  commodo. Praesent faucib mal. -->
+<!--             <a href="#"><span class="fa fa-chevron-right"></span>more testimonials</a> -->
+<!--           </div> -->
+<!--         </blockquote> -->
+<!--       </div> -->
+<!--       <div class="grid_4"> -->
+<!--         <h2>What’s new</h2> -->
+<!--         <div class="block2"> -->
+<!--           <time datetime="2014-01-01">11<br>June</time> -->
+<!--           <div class="extra_wrapper"> -->
+<!--             <div class="text1"><a href="#">Vivamus at magna non nunc </a></div>Rehoncus. Aliquam nibh antegestas id dictum a, commodo. Praesenterto faucibus malesuada faucibus -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <div class="block2"> -->
+<!--           <time datetime="2014-01-01">15<br>APR</time> -->
+<!--           <div class="extra_wrapper"> -->
+<!--             <div class="text1"><a href="#">Tivamus at magna non nunc </a></div>Rehoncus. Aliquam nibh antegestas id dictum a, commodo. Praesenterto faucibus malesuada faucibu -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--       <div class="grid_4"> -->
+<!--         <h2>Opening Hours</h2> -->
+<!--         <ul class="shed"> -->
+<!--           <li><span>Breakfast:</span> 8AM - 11AM</li> -->
+<!--           <li><span>Grill Menu:</span> 12AM - 12PM</li> -->
+<!--           <li><span>Live Musiс:</span> 8AM - 11AM</li> -->
+<!--         </ul> -->
       </div>
     </div>
   </div>
