@@ -8,7 +8,20 @@
 		<property name="hibernate.current_session_context_class">thread</property>
 		<property name="hibernate.show_sql">true</property>
 		
-		<mapping class="model.LikeitBean"/>
+		
+		<mapping class="model.ActivityBean"/>
+		<mapping class="model.ActNameBean"/>
+		<mapping class="model.AlbumBean"/> 
+		<mapping class="model.AttentionBean"/> 
+		<mapping class="model.ChatBean"/> 
+		<mapping class="model.FriendsBean"/> 
+		<mapping class="model.HobbyBean"/> 
+		<mapping class="model.ItemsBean"/> 
+		<mapping class="model.LikeItBean"/> 
+		<mapping class="model.MemberBean"/> 
+		<mapping class="model.MyHobbyBean"/> 
 		<mapping class="model.PostwallBean"/>
+		<mapping class="model.ProductBean"/> 
+		<mapping class="model.ReportBean"/> 
 	</session-factory>
 </hibernate-configuration>
