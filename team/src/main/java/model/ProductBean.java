@@ -3,11 +3,13 @@ package model;
 import java.sql.Blob;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="PRODUCT")
 public class ProductBean {
+@Id
 private Integer prodId;
 private String prodName;
 private String prodCon;

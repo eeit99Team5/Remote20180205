@@ -14,7 +14,7 @@ import model.MemberBean;
 import model.MemberDAO;
 
 @Repository
-public class MemberDAOHibernate implements MemberDAO {
+public class MemberDAOHibernate implements MemberDAO{
 
 @Autowired
 private SessionFactory sessionFatory;
@@ -68,6 +68,7 @@ public boolean update(String id,String name,String nickName,java.util.Date bdate
 			result.setPwd(pwd);
 			result.setRelation(relation);
 			result.setSex(sex);
+			return true;
 		}
 	return false;	
 }
