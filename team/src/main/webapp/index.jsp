@@ -22,7 +22,7 @@
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script src="js/touchTouch.jquery.js"></script>
-<title>Home hahahoha</title>
+<title>Home</title>
 <script>
  $(document).ready(function(){
 
