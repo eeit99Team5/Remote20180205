@@ -33,7 +33,7 @@ public List<ReportBean>select(){
  
  @Override
 public boolean insert(ReportBean bean) {
-	 ReportBean temp = this.getSession().get(ReportBean.class,bean.getCaseNum());
+	 ReportBean temp = (ReportBean)this.getSession().get(ReportBean.class,bean.getCaseNum());
 	 if(temp!=null) {
 		 this.getSession().save(bean);
 		 return true;
@@ -44,7 +44,7 @@ public boolean insert(ReportBean bean) {
  @Override
 public boolean update(Integer caseNum,String reportId,java.util.Date reportTime,String reportCon,
 		 String appealid,java.util.Date appealTime,String appealCon,Integer appealSt) {
-	 ReportBean result = this.getSession().get(ReportBean.class, caseNum);
+	 ReportBean result = (ReportBean)this.getSession().get(ReportBean.class, caseNum);
 	 if(result!=null) {
 		 result.setAppealCon(appealCon);
 		 result.setAppealid(appealid);
@@ -61,7 +61,7 @@ public boolean update(Integer caseNum,String reportId,java.util.Date reportTime,
  
  @Override
 public boolean delete(Integer caseNum) {
-	 ReportBean bean = this.getSession().get(ReportBean.class, caseNum);
+	 ReportBean bean = (ReportBean)this.getSession().get(ReportBean.class, caseNum);
 	 if(bean != null) {
 		 this.getSession().delete(caseNum);
 		 return true;
